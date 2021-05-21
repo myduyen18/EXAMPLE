@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddcfbc;
+    color: white;
+}
+img{
+    max-width: 400px;
+    max-height: 300px;
+}
+li{
+    float: left;
+    list-style: none;
+}
+.tag{
+    position: relative;
+}
+.top{
+    margin-left: 100px;
+    width: 700px;
+    padding: 0px 30px;
+}
+.title{
+    font-family: "Source Sans Pro",sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.content{
+    display: block;
+    width: 700px;
+    padding: 50px 0px 0px;
+    font-size: 15px;
+}
+.credit{
+    width: 700px;
+    padding: 50px 0px 0px;
+    font-size: 15px;
+}
+.top a{
+    text-transform: uppercase;
+    color: white;
+}
+.mid{
+    margin-left: 100px;
+    padding: 0px 30px 30px;
+}  
+.mid ul{
+    margin-left: 100px;
+    padding: 30px;
+} 
+.mid li{
+    padding: 10px;
+    margin: 0px 10px;
+    border: 1px solid #ddd;
+}
+.mid a{
+    color:white;
+    text-decoration: none;
+}
+a.active{
+    color: black;
+}
+/* nội dung bottom */
+.row {
+position: relative;
+ display: flex;
+}
+.col{
+width: 25%;
+margin: 0;
+}
+.img {
+ width: 100%;
+}
+.overlay {
+position: absolute ;
+bottom: 5px;
+background: rgba(0, 0, 0, 0.5); /* Black see-through */
+width: 400px;
+transition: .4 ease;
+opacity:0;
+color: white;
+font-size: 15px;
+padding: 20px;
+text-align: center;
+height: 266px;  
+padding-top: 120px;
+padding-bottom: 120px;
+}    
+.col-1:hover .overlay {
+ opacity: 1;
+}
+.col-2:hover .overlay {
+ opacity: 1;
+}
+.col-3:hover .overlay {
+ opacity: 1;
+}
+.col-4:hover .overlay {
+opacity: 1;
+}
+.col-5:hover .overlay {
+ opacity: 1;
+}
+.col-6:hover .overlay {
+opacity: 1;
+}
+.row-2{
+position: relative;
+ display: flex;
+}
