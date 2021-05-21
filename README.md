@@ -1,1 +1,1 @@
-# EXAMPLE
+./index.html
